@@ -1,1 +1,1 @@
-console.log("all good");
+import './style.css';
