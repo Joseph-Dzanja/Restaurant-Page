@@ -1,5 +1,5 @@
 import './style.css';
-import icon from './beer.svg';
+import icon from './beers.svg';
 
 let open_nav_btn = document.querySelector('.open-btn');
 open_nav_btn.addEventListener('click', ()=>{
@@ -10,5 +10,7 @@ open_nav_btn.addEventListener('click', ()=>{
 let home_btn = document.querySelector('.home-btn');
 const myicon = new Image();
 myicon.src = icon;
-myicon.alt = 'beerImg';
+myicon.alt = 'img';
+
+
 home_btn.appendChild(myicon);

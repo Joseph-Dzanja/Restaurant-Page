@@ -9,13 +9,34 @@ html {
     background-size: cover;
   }
 
+@font-face {
+  font-family: 'goth';
+  src: url(./gothical/Medieval\ Scroll\ of\ Wisdom.ttf) format(truetype);
+}
+
 body{
     margin: 0;
     color: bisque;
+    font-family: 'goth';
+    font-size: 2rem;
+}
+
+h1{
+  padding: .2em 0;
 }
 
 img{
     max-width: 100%;
+}
+
+.home-btn{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 .nav, .container{
@@ -27,6 +48,7 @@ img{
   margin-top: 1em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .bottom-nav{
@@ -42,6 +64,7 @@ img{
   .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .open-btn{
     display: none;
