@@ -29,7 +29,11 @@ img{
     max-width: 100%;
 }
 
-.home-btn{
+#content{
+  margin-bottom: 2em;
+}
+
+.home-btn, .open-btn{
   background: none;
 	color: inherit;
 	border: none;
@@ -37,6 +41,7 @@ img{
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+  display: inline;
 }
 
 .nav, .container{
@@ -60,7 +65,7 @@ img{
   display: none;
 }
 
-@media (min-width:600px){
+@media (min-width:630px){
   .nav{
     display: flex;
     justify-content: space-between;
@@ -82,7 +87,7 @@ img{
 
 .food-and-drinks-btn, .about-bards-barrel-btn, .pigeon-post-btn {
   background-color: #654321;
-  border: 0 solid #E5E7EB;
+  border: 0 solid bisque;
   box-sizing: border-box;
   color: bisque;
   font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -108,7 +113,7 @@ img{
 .food-and-drinks-btn:after, .about-bards-barrel-btn:after, .pigeon-post-btn:after {
   content: '';
   position: absolute;
-  border: 1px solid #FFF;
+  border: 1px solid bisque;
   bottom: 4px;
   left: 4px;
   width: calc(100% - 1px);
@@ -120,6 +125,3 @@ img{
   left: 2px;
 }
 
-@media (min-width: 768px) {
-
-} 
