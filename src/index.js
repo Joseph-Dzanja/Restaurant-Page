@@ -1,6 +1,7 @@
 import './style.css';
 import icon from './beers.svg';
 import menu from './menu.svg';
+import home from './home';
 
 let open_nav_btn = document.querySelector('.open-btn');
 open_nav_btn.addEventListener('click', ()=>{
@@ -23,3 +24,4 @@ myMenu.alt = 'menu-img';
 
 
 menu_btn.appendChild(myMenu);
+
