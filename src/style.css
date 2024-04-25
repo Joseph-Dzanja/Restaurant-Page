@@ -1,3 +1,5 @@
+/* boiler plate and home page style */
+
 *,*::before,*::after{
     box-sizing: border-box;
 }
@@ -83,8 +85,6 @@ img{
   
 }
 
-
-
 .food-and-drinks-btn, .about-bards-barrel-btn, .pigeon-post-btn {
   background-color: #654321;
   border: 0 solid bisque;
@@ -124,4 +124,7 @@ img{
   bottom: 2px;
   left: 2px;
 }
+
+
+/*Food and Drinks page*/
 
