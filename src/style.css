@@ -127,4 +127,29 @@ img{
 
 
 /*Food and Drinks page*/
+.foods-container > div > div, .drinks-container > div > div{
+  background-color: #654321;
+}
+.food1, .food2, .food3, .drink1, .drink2, .drink3{
+  width: 80%;
+  margin: 0 auto;
+}
 
+
+.description{
+  margin-top: 0;
+  padding: 0 .5em;
+  font-size: 1rem;
+}
+
+@media (min-width:635px){
+  .food-items, .drink-items{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .food1, .food2, .food3, .drink1, .drink2, .drink3{
+    width: 30%;
+  }
+  
+}

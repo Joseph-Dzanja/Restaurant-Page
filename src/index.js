@@ -2,6 +2,7 @@ import './style.css';
 import icon from './beers.svg';
 import menu from './menu.svg';
 import home from './home';
+import foodDrinks from './FoodAndDrinks';
 
 let open_nav_btn = document.querySelector('.open-btn');
 open_nav_btn.addEventListener('click', ()=>{
@@ -24,4 +25,21 @@ myMenu.alt = 'menu-img';
 
 
 menu_btn.appendChild(myMenu);
+
+
+
+
+home_btn.addEventListener('click', home);
+let foodNDrinks = document.querySelector('.food-and-drinks-btn');
+foodNDrinks.addEventListener('click', foodDrinks);
+
+
+
+
+
+
+
+
+
+
 
