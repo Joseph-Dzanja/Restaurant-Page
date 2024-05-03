@@ -3,7 +3,6 @@ import food1p from './1.jpg';
 import food2p from './2.jpg';
 import food3p from './3.jpg';
 import drink1p from './9.jpg';
-import drink2p from './8.jpg';
 import drink3p from './7.jpg';
 import drink4p from './6.jpg';
 
