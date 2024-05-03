@@ -4,6 +4,7 @@ import menu from './menu.svg';
 import home from './home';
 import foodDrinks from './FoodAndDrinks';
 import about from './about';
+import pigeon from './pigeon';
 
 let open_nav_btn = document.querySelector('.open-btn');
 open_nav_btn.addEventListener('click', ()=>{
@@ -35,7 +36,10 @@ let aboutUS = document.querySelector('.about-bards-barrel-btn');
 aboutUS.addEventListener('click', about);
 
 
+let pigeon_post_btn = document.querySelector('.pigeon-post-btn');
+pigeon_post_btn.addEventListener('click', pigeon);
 
+home();
 
 
 

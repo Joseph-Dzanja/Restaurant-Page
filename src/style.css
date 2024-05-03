@@ -127,12 +127,15 @@ img{
 
 
 /*Food and Drinks page*/
-.foods-container > div > div, .drinks-container > div > div{
+.foods-container > div > div > p, .drinks-container > div > div > p{
   background-color: #654321;
+  padding: 1em 1em;
 }
 .food1, .food2, .food3, .drink1, .drink2, .drink3{
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5em;
 }
 
 
@@ -150,6 +153,17 @@ img{
   }
   .food1, .food2, .food3, .drink1, .drink2, .drink3{
     width: 30%;
+    margin-bottom: 1em;
   }
   
+}
+
+/* CONTACT US */
+
+.font-adjust{
+  font-size: 1rem;
+}
+.margin-adjust{
+  margin-top: 0;
+  margin-bottom: 0;
 }
