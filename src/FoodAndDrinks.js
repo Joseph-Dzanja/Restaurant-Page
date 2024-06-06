@@ -1,4 +1,3 @@
-import crossing from './crossing.jpg';
 import food1p from './1.jpg';
 import food2p from './2.jpg';
 import food3p from './3.jpg';
